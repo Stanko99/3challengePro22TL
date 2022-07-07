@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Challenge 3s</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+            <div class="container-content">
+                <h3 id="landingDropdownTitle">Landing locations</h3>
+                <div class="landingDropdown">
+                    <select id="select" class="form-control">
+                        <option value="4155669">Kennedy Space Center Florida</option>
+                        <option value="4379545">Edwards Airforce Base California</option>
+                        <option value="4398103">White Sands Mexico</option>
+                        <option value="2335204">Kano Nigeria</option>
+                        <option value="2553604">Casablanca Morocco</option>
+                        <option value="6254926">Westover Air Reserve Base, Massachusetts</option>
+                        <option value="3178287">Cologne Bonn Airport Germany</option>
+                        <option value="2253348">Dakar Senegal</option>
+                    </select>
+                    <button class="button-86" onclick="getWeather()">Generate</button>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="info">
+                    <label>Weather conditions:</label>
+                    <input id="conditions" type="text" class="form-control" value="">
+                </div>
+            </div>
+        <div class="wrapper">
+            <div class="info">
+                <label>Coordinates:</label>
+                <input id="coordinates" type="text" class="form-control" value="">
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="info">
+                <label>Local time: </label>
+                <input id="timeLocal" type="text" class="form-control" value="">
+            </div>
+        </div>
+
+        <div class="wrapper-last">
+            <div class="info-last">
+                <label id="title-last">Outcome</label>
+                <input id="outcome" type="text" class="form-control" value="">
+                <input id="comeout" type="text" class="form-control" value="">
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <script type="text/javascript" src="./javascripts/app.js"></script>
+</body>
+
+</html>
